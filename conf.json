@@ -1,0 +1,36 @@
+{ "config": {
+	 "wiki_path": "$HOME/vimwiki/test/" ,
+	 "tags_file": ".tags" ,
+	 "temp_path": "/tmp/wiki_planner/",
+	 "diary_dir": "journal/",
+	 "sections": [
+		 	"Big Rocks",
+			"MITs",
+			"Routines"
+	 ],
+	 "tags": {
+		 "bigrocks": {
+			 "model": 	"string",
+			 "leader": 	"big",
+			 "pattern": 	"rock",
+			 "display":	"description",
+			 "section":	"Big Rocks"
+		 },
+		 "mits": {
+			 "model": 	"date",
+			 "leader": 	"t",
+			 "pattern": 	"%A",
+			 "display":	"line",
+			 "section":	"MITs"
+		 },
+		 "routines": {
+			 "model": 	"date",
+			 "leader": 	"am",
+			 "pattern": 	"%A",
+			 "display":	"file",
+			 "section":	"Routines"
+		 }
+	 }
+
+}
+}
