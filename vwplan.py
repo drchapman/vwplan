@@ -170,10 +170,10 @@ class tagInstance():
         
     def output_gen(self):
         '''Produce the output from the temp files'''
-        print(self.tag_name)
-        print(self.linenum)
-        print(self.description)
-        print(self.wiki_path + self.filename)
+        #print(self.tag_name)
+        #print(self.linenum)
+        #print(self.description)
+        #print(self.wiki_path + self.filename)
         if self.display =="line":
             self.grab_line()
             with open(self.tmp,'a') as target:
