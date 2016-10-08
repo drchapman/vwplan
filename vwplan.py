@@ -112,7 +112,7 @@ class planBuilder():
         with open(self.target,'w') as target:
             target.write("= " + self.date.strftime("%Y-%m-%d") + " =\n\n")
             for section in self.sections:
-                target.write("= " + section + " =\n")
+                target.write("== " + section + " ==\n")
                 sec_obj = self.sections[section]
                 for tag in sec_obj:
                     with open(self.temp_path + tag + ".tmp") as src:
